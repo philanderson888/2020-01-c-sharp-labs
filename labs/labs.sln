@@ -15,6 +15,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "lab_04_debugging", "lab_04_
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "lab_05_log_to_event_viewer", "lab_05_log_to_event_viewer\lab_05_log_to_event_viewer.csproj", "{DB024C55-4C06-47BA-A74C-A040477198FB}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "lab_06_conditional_compiling", "lab_06_conditional_compiling\lab_06_conditional_compiling.csproj", "{A6BED23E-79B3-4DD1-9968-5130628FFB4E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -45,6 +47,10 @@ Global
 		{DB024C55-4C06-47BA-A74C-A040477198FB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DB024C55-4C06-47BA-A74C-A040477198FB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DB024C55-4C06-47BA-A74C-A040477198FB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A6BED23E-79B3-4DD1-9968-5130628FFB4E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A6BED23E-79B3-4DD1-9968-5130628FFB4E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A6BED23E-79B3-4DD1-9968-5130628FFB4E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A6BED23E-79B3-4DD1-9968-5130628FFB4E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

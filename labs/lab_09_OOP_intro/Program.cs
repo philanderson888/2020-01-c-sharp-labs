@@ -22,7 +22,7 @@ namespace lab_09_OOP_intro
             newCar.Speed++;
             newCar.Speed++;
             Console.WriteLine($"Final Speed{newCar.Speed}");
-
+            var car02 = new Car("Mercedes","C220","silver",2200);
         }
     }
 
@@ -37,8 +37,18 @@ namespace lab_09_OOP_intro
         // Constructor is present even if not stated
         // Default constructor
         public Car() {
-            this.Speed = -1;  // THIS KEYWORD refers to INSTANCE OBJECT IN USE AT THE TIME
+            this.Speed = 0;  // THIS KEYWORD refers to INSTANCE OBJECT IN USE AT THE TIME
         }
+
+        public Car(string make, string model, string color, int length)
+        {
+            this.Make = make;
+            this.Model = model;
+            this.Color = color;
+            this.Length = length;
+            this.Speed = 0;
+        }
+
     }
 
 }

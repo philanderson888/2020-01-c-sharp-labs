@@ -6,7 +6,12 @@ namespace lab_01_hello_world
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            Console.WriteLine(Math.Cos(Math.PI*45/180));
+        }
+
+        static double DegreeToRadian(double angle)
+        {
+            return Math.PI * angle / 180.0;
         }
     }
 }

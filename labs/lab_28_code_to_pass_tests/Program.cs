@@ -112,6 +112,36 @@ namespace lab_28_code_to_pass_tests
         }
 
 
+
+        /*
+         Return Sum Of Array Items
+             */
+
+
+        public int ReturnSumOf3DArray(int x,int y, int z)
+        {
+            var array = new int[x, y, z];
+            for (int i = 0; i < x; i++)
+            {
+                for (int j = 0; j < y; j++)
+                {
+                    for (int k = 0; k < z; k++)
+                    {
+                        array[i, j, k] = i * j * k;
+                    }
+                }
+            }
+            // get sum
+            int total = 0;
+            foreach (var item in array)
+            {
+                total += item;
+            }
+            return total;
+        }
+
+
+
         /*
         Build an array which takes as an input parameter the size of the array.
         The array items are the square of the index
@@ -124,10 +154,19 @@ namespace lab_28_code_to_pass_tests
 
         public int Test_125_Build_Array_And_Return_Sum_Of_Squares(int arraySize)
         {
-            return -1;
+            var array = new int[arraySize]; // empty array of given size
+            // fill array
+            for(int i = 0; i < arraySize; i++)
+            {
+                array[i] = i * i; // each element is square of index
+            }
+            int total = 0;
+            foreach(var item in array)
+            {
+                total += item;
+            }
+            return total;
         }
-
-
 
         /* 
         Pass in array   [10,11,15,25..
@@ -139,7 +178,37 @@ namespace lab_28_code_to_pass_tests
 
         public int Test_126_Loops(int[] array)
         {
-            return -1;
+            var counter = 0;
+            while (counter < array.Length)
+            {
+                array[counter]++;
+                counter++;
+            }
+            // reset counter
+            counter = 0;
+            do
+            {
+                array[counter] += 3;
+                counter++;
+            }
+            while (counter < array.Length);
+            // reset counter
+            counter = 0;
+            foreach (var item in array)
+            {
+                array[counter] = item * 2;
+                counter++;
+            }
+            //Get total
+            var total = 0;
+
+            foreach (var item in array)
+            {
+                total += item;
+            }
+
+            return total;
+
         }
 
 

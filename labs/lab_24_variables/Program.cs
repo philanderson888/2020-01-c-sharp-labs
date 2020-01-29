@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Generic;
 
 namespace lab_24_variables
 {
@@ -79,9 +80,30 @@ namespace lab_24_variables
             byte byte03 = 0b_1010_1010;     // BINARY LITERAL  1010 represents decimal 10 hex A
             byte byte04 = 0xAA;   // 0x - WHAT FOLLOWS IS HEX
             byte byte05 = 0x10;   // 0x - WHAT FOLLOWS IS HEX  (DECIMAL 16)
-        
 
-            // pause till MONDAY !!!
+
+            // create a LITERAL
+            var myItem = new
+            {
+                name="Fred",
+                id=22
+            };
+
+            Console.WriteLine($"{myItem.name} has id {myItem.id}");
+
+            // literal array
+            var myArray = new int[] { 1, 2, 3, 4, 5 };
+            // more work
+            var myArray2 = new int[20];
+            myArray2[0] = 1;
+            var myList = new List<string>() { "a", "b", "c" };
+
+            // good
+            string string01 = "hi";
+            // not so good
+            string string02 = new String("hi"); // too much
+
+            char[] string03 = "literal string".ToCharArray();
 
         }
     }

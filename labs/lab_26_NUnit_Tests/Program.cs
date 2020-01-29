@@ -71,10 +71,32 @@ namespace lab_26_NUnit_Tests
             Assert.AreEqual(expected, actual);
         }
 
-        
 
+        [TestCase(1,1,1,0)]
+        [TestCase(2,2,2,1)]
+        [TestCase(3,3,3,27)]
+        [TestCase(4,4,4,216)]
+        public void Sum3DCubeTest03(int x,int y,int z,int expected)
+        {
+            var instance = new Basic_Tests();
+            var actual = instance.ReturnSumOf3DArray(x, y, z);
+            Assert.AreEqual(expected, actual);
+        }
+
+
+        [TestCase(new int[] { 1, 2, 3, 4 }, 52)]
+        [TestCase(new int[] { 1, 1}, 20)]
+        public void Test_126_Loops(int[] array, int expected)
+        {
+            // Arrange
+            var instance = new Basic_Tests();
+
+            // Act
+            var actual = instance.Test_126_Loops(array);
+
+            // Assert
+            Assert.AreEqual(expected, actual);
+        }
 
     }
-
-
 }

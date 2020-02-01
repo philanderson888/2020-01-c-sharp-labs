@@ -15,7 +15,7 @@ namespace lab_32_variables_final
         {
             // const
             const double PI = 3.1415;
-            
+
             var p = new Parent();
             //p.DateOfBirth = DateTime.Now;
             Console.WriteLine(p.DateOfBirth);
@@ -24,7 +24,7 @@ namespace lab_32_variables_final
             // null
             var emptyString = "";      // box for data but nothing in the box
             string nullString = null;  // points to 'null' element
-            Console.WriteLine($"Is an empty string null?  {emptyString==nullString}");
+            Console.WriteLine($"Is an empty string null?  {emptyString == nullString}");
 
 
             // null coalesce
@@ -32,7 +32,7 @@ namespace lab_32_variables_final
             string databaseItem = null;
             string myItem = databaseItem ?? "invalid value";
             Console.WriteLine(myItem);  // invalid value
-            
+
             databaseItem = "real item";
             myItem = databaseItem ?? "invalid value";
             Console.WriteLine(myItem);  // real item
@@ -75,6 +75,7 @@ namespace lab_32_variables_final
             bool? databaseIsAlive = null;
             double? databasePrice = null;
         }
+    }
 
     class Parent
     {

@@ -5,9 +5,7 @@
     <TargetFramework>netcoreapp3.1</TargetFramework>
   </PropertyGroup>
 
-  <ItemGroup>
-    <PackageReference Include="StyleCop" Version="6.1.0" />
-  </ItemGroup>
+
 
   <ItemGroup>
     <ProjectReference Include="..\lab_03_library_files\lab_03_library_files.csproj" />

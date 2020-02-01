@@ -17,7 +17,6 @@
 
   <ItemGroup>
     <ProjectReference Include="..\lab_27_test_addition\lab_27_test_addition.csproj" />
-    <ProjectReference Include="..\lab_28_code_to_pass_tests\lab_28_code_to_pass_tests.csproj" />
   </ItemGroup>
 
 </Project>

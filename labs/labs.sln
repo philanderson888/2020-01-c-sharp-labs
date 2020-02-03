@@ -81,6 +81,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "lab_33b_rabbits", "lab_33b_
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "lab_28_tests_answers", "lab_28_tests_answers\lab_28_tests_answers.csproj", "{16CD4536-F2FC-4FDD-BB2E-24557751BA31}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "lab_36_Northwind_Code_First", "lab_36_Northwind_Code_First\lab_36_Northwind_Code_First.csproj", "{18D1B0F2-77D5-4878-B57B-B90C8FEFEBD0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "lab_37_northwind_core", "lab_37_northwind_core\lab_37_northwind_core.csproj", "{13E19722-8620-4440-8D4D-05D243C2D20A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -243,6 +247,14 @@ Global
 		{16CD4536-F2FC-4FDD-BB2E-24557751BA31}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{16CD4536-F2FC-4FDD-BB2E-24557751BA31}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{16CD4536-F2FC-4FDD-BB2E-24557751BA31}.Release|Any CPU.Build.0 = Release|Any CPU
+		{18D1B0F2-77D5-4878-B57B-B90C8FEFEBD0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{18D1B0F2-77D5-4878-B57B-B90C8FEFEBD0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{18D1B0F2-77D5-4878-B57B-B90C8FEFEBD0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{18D1B0F2-77D5-4878-B57B-B90C8FEFEBD0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{13E19722-8620-4440-8D4D-05D243C2D20A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{13E19722-8620-4440-8D4D-05D243C2D20A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{13E19722-8620-4440-8D4D-05D243C2D20A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{13E19722-8620-4440-8D4D-05D243C2D20A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

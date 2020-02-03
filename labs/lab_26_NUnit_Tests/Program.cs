@@ -7,7 +7,7 @@ using lab_27_test_addition;
 namespace lab_26_NUnit_Tests
 {
 
-    class NUnit_Tests
+    public class NUnit_Tests
     {
         // CREATE UNIFORM TESTING ENVIRONMENT - PERHAPS LOAD STARTUP INFO FROM DATABASE
         [SetUp]

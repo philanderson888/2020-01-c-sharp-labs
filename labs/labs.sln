@@ -87,13 +87,19 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "lab_37_northwind_core", "la
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MS_Test", "MS_Test\MS_Test.csproj", "{3B6496A8-DF5A-4106-B3FA-29CF299D5660}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "lab_38_operators", "lab_38_operators\lab_38_operators.csproj", "{F917F36F-60B9-47E9-852F-38BAD4C24617}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "lab_38_operators", "lab_38_operators\lab_38_operators.csproj", "{F917F36F-60B9-47E9-852F-38BAD4C24617}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "lab_39_interfaces", "lab_39_interfaces\lab_39_interfaces.csproj", "{B90BC2C9-9B5B-453F-A1A2-4FCDA5ACBA08}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "lab_39_interfaces", "lab_39_interfaces\lab_39_interfaces.csproj", "{B90BC2C9-9B5B-453F-A1A2-4FCDA5ACBA08}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "lab_40_Microsoft_Office", "lab_40_Microsoft_Office\lab_40_Microsoft_Office.csproj", "{36490935-D2FC-441A-A892-593C14546DDB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "lab_40_Microsoft_Office", "lab_40_Microsoft_Office\lab_40_Microsoft_Office.csproj", "{36490935-D2FC-441A-A892-593C14546DDB}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "lab_40b_Microsoft_Office", "lab_40b_Microsoft_Office\lab_40b_Microsoft_Office.csproj", "{0A995430-6684-4141-AE00-0E4D56F89D99}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "lab_41_delegates", "lab_41_delegates\lab_41_delegates.csproj", "{6B5DDA60-834A-4EAA-A136-8BC5281BB431}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "lab_42_events", "lab _42_events\lab_42_events.csproj", "{F79B4CA0-2893-439D-AF85-E15BC17D851B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "lab_43_OOP_Events", "lab_43_OOP_Events\lab_43_OOP_Events.csproj", "{363CF897-FA53-4F3C-B84A-53EC3D2A2AC5}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -285,6 +291,18 @@ Global
 		{0A995430-6684-4141-AE00-0E4D56F89D99}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0A995430-6684-4141-AE00-0E4D56F89D99}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0A995430-6684-4141-AE00-0E4D56F89D99}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6B5DDA60-834A-4EAA-A136-8BC5281BB431}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6B5DDA60-834A-4EAA-A136-8BC5281BB431}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6B5DDA60-834A-4EAA-A136-8BC5281BB431}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6B5DDA60-834A-4EAA-A136-8BC5281BB431}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F79B4CA0-2893-439D-AF85-E15BC17D851B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F79B4CA0-2893-439D-AF85-E15BC17D851B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F79B4CA0-2893-439D-AF85-E15BC17D851B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F79B4CA0-2893-439D-AF85-E15BC17D851B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{363CF897-FA53-4F3C-B84A-53EC3D2A2AC5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{363CF897-FA53-4F3C-B84A-53EC3D2A2AC5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{363CF897-FA53-4F3C-B84A-53EC3D2A2AC5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{363CF897-FA53-4F3C-B84A-53EC3D2A2AC5}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

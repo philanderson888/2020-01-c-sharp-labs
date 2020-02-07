@@ -8,7 +8,7 @@ namespace lab_42_events
         public delegate string MyDelegate(string x, string y);
         public static event MyDelegate MyEvent;
 
-        static void Main(string[] args)
+        static void Main()
         {
             // ADD METHODS
             MyEvent += DoThis;

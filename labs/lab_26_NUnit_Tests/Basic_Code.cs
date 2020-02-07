@@ -8,6 +8,21 @@ namespace lab_26_NUnit_Tests
     public class Basic_Code
     {
 
+
+        /*
+         
+             # Sum Even Numbers To 100
+
+    
+         * Sum the even numbers up to a given value
+         */
+        public int Sum_Even_Numbers_Return_Total(int maxValue)
+        {
+            return -1;
+        }
+        
+        
+
         // Return Sum Of Array
         public int Return_Sum_Of_Array(int[] array)
         {
@@ -260,6 +275,10 @@ namespace lab_26_NUnit_Tests
 
 
 
+
+
+
+        
         /*
          Test to add up the total ASCII values of 
          a string including any spaces!
@@ -269,6 +288,12 @@ namespace lab_26_NUnit_Tests
         {
             return -1;
         }
+
+
+
+
+
+
 
         // Test to add up the total ASCII values of a string
         // minus any spaces!

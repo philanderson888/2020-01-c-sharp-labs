@@ -8,10 +8,19 @@ namespace lab_26_NUnit_Tests
     {
 
 
-        public static List<Rabbit> rabbits = new List<Rabbit>();
+
 
 
         // Return number of iterations (years) to reach a given population limit
+        /* 
+                  Test data
+         Year 0    1 rabbit age 0
+         Year 1    2            1,0
+              2    4            2,1,0,0
+              3    8            3,2,1,1,0,0,0,0  ==> total age = 7 length 8                      
+             */
+             
+        */
         public int Rabbit_Exponential_Growth(int populationLimit)
         {
             return -1;
@@ -29,7 +38,29 @@ namespace lab_26_NUnit_Tests
          Year 0    1 rabbit age 0
          Year 1    2            1,0
               2    4            2,1,0,0
-              3    8            3,2,1,1,0,0,0,0  ==> total age = 7 length 8                      
+              3    8            3,2,1,1,0,0,0,0  ==> total age = 7 length 8         
+              
+
+            Bonus Points : Trainer Led
+
+                Create a graph of rabbit population against time
+
+                Graph a)  Text file CSV format
+
+                RabbitPopulation.csv
+                Seconds,Population
+                0,1        n =>  2^n                  Math.Pow(2,i);
+                1,2        n  =>  2^n
+                2,4
+                3,8
+                4,16
+
+                Base Level 1 CSV file output
+
+                Graph b) To Excel?
+                Graph c) Report On Population Growth To Word?
+
+
              */
         public (int cumulativeRabbitAge, int rabbitCount) MultiplyRabbits(int totalYears)
         {
@@ -104,6 +135,7 @@ namespace lab_26_NUnit_Tests
                     if (rabbit.Age >= 3)
                     {
                         var newRabbit = new Rabbit();
+                        newRabbit.RabbitId = rabbits.Count + 1;
                         rabbits.Add(newRabbit);
                     }
                     rabbit.Age++;
@@ -118,6 +150,19 @@ namespace lab_26_NUnit_Tests
         }
         #endregion
 
+        /* 
+         Pass in the number of years to iterate
+         Also pass in the maximum age of a rabbit after which death is inevitable
+         Return the sum of all ages of all rabbits after given iterations
+         Also return the rabbit population count at that time
+             */
+        #region RabbitsWhereDeathInvolved
+        public (int RabbitAge, int RabbbitCount) RabbitPopulationWhereDeathInvolved(int years, int maxAge)
+        {
+            return (-1, -1);
+        }
+        #endregion
+
     }
 
     #region RabbitsClass
@@ -128,7 +173,6 @@ namespace lab_26_NUnit_Tests
         public int Age { get; set; }
         public Rabbit()
         {
-            this.RabbitId = Rabbit_Code.rabbits.Count + 1;
             RabbitName = "Rabbit" + this.RabbitId;
             Age = 0;
         }

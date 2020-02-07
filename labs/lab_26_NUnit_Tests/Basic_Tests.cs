@@ -37,6 +37,15 @@ namespace lab_26_NUnit_Tests
 
 
 
+        /* Sum Even Numbers To a given value */
+        [TestCase(100,-1)]
+        public void Sum_Even_Numbers_Return_Total_Test(int maxValue, int expected)
+        {
+            var instance = new Basic_Code();
+            var actual = instance.Sum_Even_Numbers_Return_Total(maxValue);
+            Assert.AreEqual(expected, actual);
+        }
+
 
         // pass in an integer array and return the sum
         [TestCase(new int[] { 1, 2, 3, 4, 5, 6 }, 21)]
@@ -118,6 +127,28 @@ namespace lab_26_NUnit_Tests
             Assert.AreEqual(expected, actual);
         }
 
+
+
+        // Return total of ASCII characters in a string
+        [TestCase("Hello World", -2)]
+        public void Test_170_Sum_Of_ASCII_Values_Of_A_String_Test
+            (string testString, int expected)
+        {
+            var instance = new Basic_Code();
+            var actual = instance.Test_170_Sum_ASCII_Values_Of_String(testString);
+            Assert.AreEqual(expected, actual);
+        }
+
+
+        // Return total of ASCII characters in a string minus spaces
+        [TestCase("Hello World", -2)]
+        public void Test_180_Sum_Of_ASCII_Values_Of_A_String_Test
+            (string testString, int expected)
+        {
+            var instance = new Basic_Code();
+            var actual = instance.Test_180_Sum_ASCII_Values_Of_String(testString);
+            Assert.AreEqual(expected, actual);
+        }
 
 
 

@@ -86,5 +86,47 @@ namespace lab_26_NUnit_Tests
         }
         #endregion
 
+
+        #region CustomerOrders
+        /*
+         Return total of all customer orders given a customer ID
+         Total will be in the form of a decimal number in money ie £10.57 for example
+         
+
+            Click on Customer
+
+            Customer ==> CustomerID
+
+            Search through all orders 
+
+            OrderID
+            CustomerID  (placed the order)
+
+            Find all orders placed by this customer : 
+
+            Match 1) CustomerID from selected customer 
+            with  2) all orders which have this CustomerID in them
+
+            orders = db.Orders.Where(o=>o.CustomerID==customer.CustomerID).ToList<Order>();
+
+            orders = db.Orders.Where(order=>order.CustomerID==customer.CustomerID).ToList<Order>();
+             
+            orders =
+            (from order in db.Orders
+            where order.CustomerID == customer.CustomerID
+            select order).ToList<Order>();
+
+
+
+         */
+
+        public decimal TotalOfAllCustomerOrders(string CustomerId)
+        {
+            return -1.00M;
+        }
+        #endregion
+
+
+
     }
 }

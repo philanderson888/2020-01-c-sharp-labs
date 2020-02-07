@@ -83,6 +83,18 @@ namespace lab_26_NUnit_Tests
         #endregion
 
 
+        #region RabbitPopulationExplosionWhereDeathIsInvolved
+        [TestCase(3, 5, 3, 1)]
+        public void Test_Rabbit_Population_Where_Death_Involved_Test(int years, int maxAge, int expectedRabbitAge, 
+            int expectedRabbitCount)
+        {
+            var instance = new Rabbit_Code();
+            (int actualRabbitAge, int actualRabbitCount) = instance.RabbitPopulationWhereDeathInvolved(int years, int maxAge);
+                
+        }
+        #endregion
+
+
     }
 }
 

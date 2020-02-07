@@ -103,7 +103,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "lab_43_OOP_Events", "lab_43
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "lab_44_WPF_Entity_Users_Categories", "lab_44_WPF_Entity_Users_Categories\lab_44_WPF_Entity_Users_Categories.csproj", "{57881248-1635-4CDA-99EA-D37BD4DD1479}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EntityCoreScaffoldFromDatabase", "EntityCoreScaffoldFromDatabase\EntityCoreScaffoldFromDatabase.csproj", "{20197714-C779-47F8-9A86-A947F737D3C4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EntityCoreScaffoldFromDatabase", "EntityCoreScaffoldFromDatabase\EntityCoreScaffoldFromDatabase.csproj", "{20197714-C779-47F8-9A86-A947F737D3C4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "lab_45_entity_core_sql_sqlite", "lab_45_entity_core_sql_sqlite\lab_45_entity_core_sql_sqlite.csproj", "{E8BB7648-45FB-4926-B3E2-F7978D949765}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -315,6 +317,10 @@ Global
 		{20197714-C779-47F8-9A86-A947F737D3C4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{20197714-C779-47F8-9A86-A947F737D3C4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{20197714-C779-47F8-9A86-A947F737D3C4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E8BB7648-45FB-4926-B3E2-F7978D949765}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E8BB7648-45FB-4926-B3E2-F7978D949765}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E8BB7648-45FB-4926-B3E2-F7978D949765}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E8BB7648-45FB-4926-B3E2-F7978D949765}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

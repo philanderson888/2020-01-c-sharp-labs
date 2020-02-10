@@ -105,7 +105,11 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "lab_44_WPF_Entity_Users_Cat
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EntityCoreScaffoldFromDatabase", "EntityCoreScaffoldFromDatabase\EntityCoreScaffoldFromDatabase.csproj", "{20197714-C779-47F8-9A86-A947F737D3C4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "lab_45_entity_core_sql_sqlite", "lab_45_entity_core_sql_sqlite\lab_45_entity_core_sql_sqlite.csproj", "{E8BB7648-45FB-4926-B3E2-F7978D949765}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "lab_45_entity_core_sql_sqlite", "lab_45_entity_core_sql_sqlite\lab_45_entity_core_sql_sqlite.csproj", "{E8BB7648-45FB-4926-B3E2-F7978D949765}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "lab_46_asp_demo_site", "lab_46_asp_demo_site\lab_46_asp_demo_site.csproj", "{99B06FC3-DFD7-4893-A1F8-56BD4EC11387}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "lab_47_mvc_framework_demo", "lab_47_mvc_framework_demo\lab_47_mvc_framework_demo.csproj", "{AAF96F3D-6CB5-4135-BA91-ECAE0F73C86A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -321,6 +325,14 @@ Global
 		{E8BB7648-45FB-4926-B3E2-F7978D949765}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E8BB7648-45FB-4926-B3E2-F7978D949765}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E8BB7648-45FB-4926-B3E2-F7978D949765}.Release|Any CPU.Build.0 = Release|Any CPU
+		{99B06FC3-DFD7-4893-A1F8-56BD4EC11387}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{99B06FC3-DFD7-4893-A1F8-56BD4EC11387}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{99B06FC3-DFD7-4893-A1F8-56BD4EC11387}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{99B06FC3-DFD7-4893-A1F8-56BD4EC11387}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AAF96F3D-6CB5-4135-BA91-ECAE0F73C86A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AAF96F3D-6CB5-4135-BA91-ECAE0F73C86A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AAF96F3D-6CB5-4135-BA91-ECAE0F73C86A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AAF96F3D-6CB5-4135-BA91-ECAE0F73C86A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

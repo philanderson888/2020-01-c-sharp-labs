@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>My Web Page</title>
+	<style>
+		/* all elements */
+		html{
+			background-color: #def;
+			font-family: Arial, Verdana;
+			font-size: 1.5em;
+		}
+		/* all paragraphs eg 1.5 times normal size*/
+		p{
+			/* font-size: 1.5em; */
+			/* font-size: 0.5em; */
+		}
+		h1{
+			font-size:40px;   /* not responsive */
+		}
+		/* latter rule override former rule */
+		/* but 'layers of specificity which trump this eg #(id) stronger than .(class)' 
+		CSS Selector 
+		ID - ONE ON PAGE 
+		   <p id = "x">	In CSS ==> target this with   #x {} */
+		#header-main{
+			text-decoration: underline;
+		}
+
+		/* CLASS - MANY ON PAGE 
+           <p class="y"> */
+        .list-item{
+        	background-color: #eee;
+        	color: #456;
+        }
+        .image-gallery {
+        	border: 3px solid #aaa;
+        	padding: 20px;
+        }
+        /* margin x-direction y-direction */
+        img{
+        	margin: 10px 20px ;
+        }
+		
+	</style>
+
+</head>
+<body>
+	<h1 id="header-main">Header</h1>
+	<p>Paragraph</p>
+	<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In non magna in leo interdum efficitur vel dignissim diam. Proin laoreet velit sed molestie pellentesque. Cras turpis metus, eleifend eget iaculis lobortis, sodales et lorem. </p>
+	<!-- List -->
+	<ul>
+		<p>Test List</p>
+		<!-- Item -->
+		<li class="list-item">One</li>
+		<li class="list-item">Two</li>
+		<li class="list-item">Three</li>
+	</ul>
+	<!-- ordered list -->
+	<ol>
+		<li class="list-item">A</li>
+		<li class="list-item">B</li>
+		<li class="list-item">C</li>
+	</ol>
+	<!-- self-closing -->
+	<!-- image with source url and height in pixels (pixel = dot on screen) -->
+	<!-- div = division = container with no other use -->
+	<div class="image-gallery">
+		<img src="https://res.cloudinary.com/dk-find-out/image/upload/q_80,w_1920,f_auto/A-Alamy-BXWK5E_vvmkuf.jpg" height="100" width="150" /> 
+		<img src="https://picsum.photos/150/100?random=1">
+		<img src="https://picsum.photos/150/100?random=2">
+		<img src="https://picsum.photos/150/100?random=3">
+		<img src="https://picsum.photos/150/100?random=4">
+		<img src="https://picsum.photos/150/100?random=5">
+		<img src="https://picsum.photos/150/100?random=6">
+		<img src="https://picsum.photos/150/100?random=7">
+		<img src="https://picsum.photos/150/100?random=8">
+		<img src="https://picsum.photos/150/100?random=9">
+		<img src="https://picsum.photos/150/100?random=10">
+		<img src="https://picsum.photos/150/100?random=11">
+		<img src="https://picsum.photos/150/100?random=12">
+	</div>
+	<!-- Javascript best at foot of body so runs AFTER PAGE HAS LOADED -->
+	<script>
+		// outside function ==> GLOBAL SCOPE ACROSS FULL APPLICATION
+		var x = 1;
+		y=1;  // also (by error) declare global variable
+		console.log(x);
+		console.log(y);
+		// semicolons not needed!
+		console.log('no semicolons on this line')
+
+	</script>
+</body>
+</html>

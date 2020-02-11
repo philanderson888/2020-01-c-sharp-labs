@@ -43,45 +43,50 @@ namespace lab_48_entity_migrations
             }
         }
     }
-}
 
-public class UserDatabaseContext : DbContext
-{
-    public DbSet<User> Users { get; set; }
-    public DbSet<Category> Categories { get; set; }
-
-    public DbSet<Company> Companies { get; set; }
-
-    protected override void OnConfiguring(DbContextOptionsBuilder builder)
+    public class UserDatabaseContext : DbContext
     {
-        builder.UseSqlServer("Data Source = (localdb)\\mssqllocaldb;Initial Catalog = UserMigrationDatabase");
-        //builder.UseSqlite("Data Source = UsersAndCategories.db");
+        
+        public DbSet<User> Users { get; set; }
+        public DbSet<Category> Categories { get; set; }
+
+        public DbSet<Company> Companies { get; set; }
+
+        protected override void OnConfiguring(DbContextOptionsBuilder builder)
+        {
+            builder.UseSqlServer("Data Source = (localdb)\\mssqllocaldb;Initial Catalog = UserMigrationDatabase");
+            //builder.UseSqlite("Data Source = UsersAndCategories.db");
+        }
     }
+
+    public class User
+    {
+        public int UserId { get; set; }
+        public string UserName { get; set; }
+
+        public int? CategoryId { get; set; }
+
+        public virtual Category Category { get; set; }
+
+        public int? CompanyId { get; set; }
+        public virtual Company Company { get; set; }
+    }
+
+    public class Category
+    {
+        public int CategoryId { get; set; }
+        public string CategoryName { get; set; }
+    }
+
+    public class Company
+    {
+        public int CompanyId { get; set; }
+        public string CompanyName { get; set; }
+    }
+
 }
 
-public class User   
-{
-    public int UserId { get; set; }
-    public string UserName { get; set; }
 
-    public int? CategoryId { get; set; }
-
-    public virtual Category Category { get; set; }
-
-    public int? CompanyId { get; set; }
-    public virtual Company Company { get; set; }
-}
-
-public class Category
-{
-    public int CategoryId { get; set; }
-    public string CategoryName { get; set; }
-}
-
-public class Company {
-    public int CompanyId { get; set; }
-    public string CompanyName { get; set; }
-}
 
 
 

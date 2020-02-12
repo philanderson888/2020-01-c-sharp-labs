@@ -26,13 +26,13 @@ namespace lab_49_async_await
             // async operation
             // main thread will start the operation but not wait for it.  Main thread will not pause.
             // build a big text file
-            File.Delete("log.dat");
-            Console.WriteLine("\n\nBuilding text file\n\n");
-            for (int i = 0; i < 1000; i++)
-            {
-                File.AppendAllText("log.dat", $"New log entry {i} at {DateTime.Now}\n");
-            }
-            Console.WriteLine("File built . . . \n\n");
+            //File.Delete("log.dat");
+            //Console.WriteLine("\n\nBuilding text file\n\n");
+            //for (int i = 0; i < 1000; i++)
+            //{
+            //    File.AppendAllText("log.dat", $"New log entry {i} at {DateTime.Now}\n");
+            //}
+            //Console.WriteLine("File built . . . \n\n");
             Console.WriteLine($"Starting async operations at {s.ElapsedMilliseconds}");
             ReadTextLines();  // async
             Console.WriteLine($"Finishing async operations at {s.ElapsedMilliseconds}");

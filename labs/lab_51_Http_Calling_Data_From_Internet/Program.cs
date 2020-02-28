@@ -7,7 +7,11 @@ namespace lab_51_Http_Calling_Data_From_Internet
 {
     class Program
     {
-        static Uri url = new Uri("https://www.google.com");
+        //static Uri url = new Uri("https://www.google.com");
+        //static Uri url = new Uri("https://raw.githubusercontent.com/philanderson888/data/master/customers.json");
+        static Uri url = new Uri("https://localhost:44335/api/Customers");
+
+        
 
 
         static void Main(string[] args)
@@ -46,7 +50,7 @@ namespace lab_51_Http_Calling_Data_From_Internet
 
         static void GetDataJson()
         {
-            var url = new Uri("https://raw.githubusercontent.com/philanderson888/data/master/customers.json");
+            
             var webclient = new WebClient { Proxy = null };
             var jsonData = webclient.DownloadString(url);
             Console.WriteLine(jsonData);

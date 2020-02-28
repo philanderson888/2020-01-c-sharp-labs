@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 using System.Collections;
+using System.Reflection.Metadata;
 
 namespace lab_26_NUnit_Tests
 {
@@ -28,6 +29,9 @@ namespace lab_26_NUnit_Tests
         {
             return -1;
         }
+
+
+
 
 
         /*
@@ -576,7 +580,25 @@ namespace lab_26_NUnit_Tests
         }
 
 
+        public static int LINQ_Sum_Items_In_Array(int[] array)
+        {
+            // use array.Aggregate() method
+            return -1;
+        }
 
+        public static int[] LINQ_Union_Of_2_Arrays(int[] array1, int[] array2)
+        {
+            // use array1.Union(array2) to return array of joined
+            // elements minus duplicates
+            return new int[] { -1, -1, -1 };
+        }
+
+        public static int[] LINQ_Intersection_Of_2_Arrays(int[] array1, int[] array2)
+        {
+            // use array1.Intersect(array2) to return 
+            // common elements
+            return new int[] { 1, 2, 3 };
+        }
 
 
 

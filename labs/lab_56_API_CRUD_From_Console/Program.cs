@@ -49,7 +49,7 @@ namespace lab_56_JSON_deserialize
 
             var customer2 = new Customer()
             {
-                CustomerID = "Phil3",
+                CustomerID = "Phil4",
                 ContactName = "Test Customer",
                 CompanyName = "Sparta Test",
                 City = "London",

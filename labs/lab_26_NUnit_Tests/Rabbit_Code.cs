@@ -20,7 +20,7 @@ namespace lab_26_NUnit_Tests
               3    8            3,2,1,1,0,0,0,0  ==> total age = 7 length 8                      
              */
              
-        */
+        
         public int Rabbit_Exponential_Growth(int populationLimit)
         {
             return -1;

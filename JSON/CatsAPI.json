@@ -1,0 +1,35 @@
+https://localhost:44307/api/CatsAPI
+
+
+https://localhost:44307/api/CatsAPI/1
+
+
+GET https://localhost:44307/api/CatsAPI/1
+
+
+POST https://localhost:44307/api/CatsAPI HTTP/1.1
+content-type: application/json
+
+{
+  "catName": "Sanjana",
+  "categoryId": 1,
+  "category": null,
+  "dateOfBirth": "0001-01-01T00:00:00"
+}
+
+
+
+PUT https://localhost:44307/api/CatsAPI/6 HTTP/1.1
+content-type: application/json
+
+{
+  "catId": 6,
+  "catName": "Sanjana2",
+  "categoryId": 1,
+  "category": null,
+  "dateOfBirth": "0001-01-01T00:00:00"
+}
+
+
+DELETE https://localhost:44307/api/CatsAPI/6 HTTP/1.1
+content-type: application/json

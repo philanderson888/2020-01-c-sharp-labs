@@ -129,11 +129,13 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "lab_55_Raw_SQL", "lab_55_Ra
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "lab_56_API_CRUD_From_Console", "lab_56_API_CRUD_From_Console\lab_56_API_CRUD_From_Console.csproj", "{9A63E622-B1C7-4DD8-989E-6D0CB78D21A3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "lab_57_streaming", "lab_57_streaming_serialization\lab_57_streaming.csproj", "{FC7D47CB-E7C5-4137-AC62-9E6429792941}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "lab_57_streaming", "lab_57_streaming_serialization\lab_57_streaming.csproj", "{FC7D47CB-E7C5-4137-AC62-9E6429792941}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "lab_58_serialization", "lab_58_serialization\lab_58_serialization.csproj", "{A92388B9-ECEA-42C3-870E-EDC3025D507A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "lab_58_serialization", "lab_58_serialization\lab_58_serialization.csproj", "{A92388B9-ECEA-42C3-870E-EDC3025D507A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "lab_59_API_Northwind_Core", "lab_59_API_Northwind_Core\lab_59_API_Northwind_Core.csproj", "{EFEAC24B-9FF3-4E09-AA8E-9E46D49E2C17}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "lab_59_API_Northwind_Core", "lab_59_API_Northwind_Core\lab_59_API_Northwind_Core.csproj", "{EFEAC24B-9FF3-4E09-AA8E-9E46D49E2C17}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "lab_60_cats_API", "lab_60_cats_API\lab_60_cats_API.csproj", "{7A4831FB-33EE-481C-93B0-74AB259184F4}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -405,6 +407,10 @@ Global
 		{EFEAC24B-9FF3-4E09-AA8E-9E46D49E2C17}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{EFEAC24B-9FF3-4E09-AA8E-9E46D49E2C17}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{EFEAC24B-9FF3-4E09-AA8E-9E46D49E2C17}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7A4831FB-33EE-481C-93B0-74AB259184F4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7A4831FB-33EE-481C-93B0-74AB259184F4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7A4831FB-33EE-481C-93B0-74AB259184F4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7A4831FB-33EE-481C-93B0-74AB259184F4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

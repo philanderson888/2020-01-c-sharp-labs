@@ -135,7 +135,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "lab_58_serialization", "lab
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "lab_59_API_Northwind_Core", "lab_59_API_Northwind_Core\lab_59_API_Northwind_Core.csproj", "{EFEAC24B-9FF3-4E09-AA8E-9E46D49E2C17}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "lab_60_cats_API", "lab_60_cats_API\lab_60_cats_API.csproj", "{7A4831FB-33EE-481C-93B0-74AB259184F4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "lab_60_cats_API", "lab_60_cats_API\lab_60_cats_API.csproj", "{7A4831FB-33EE-481C-93B0-74AB259184F4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "lab_61_MVC_Website_Cats", "lab_61_MVC_Website_Cats\lab_61_MVC_Website_Cats.csproj", "{7E777EFA-49F3-4A60-B9A1-392A859AB0CB}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -411,6 +413,10 @@ Global
 		{7A4831FB-33EE-481C-93B0-74AB259184F4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7A4831FB-33EE-481C-93B0-74AB259184F4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7A4831FB-33EE-481C-93B0-74AB259184F4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7E777EFA-49F3-4A60-B9A1-392A859AB0CB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7E777EFA-49F3-4A60-B9A1-392A859AB0CB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7E777EFA-49F3-4A60-B9A1-392A859AB0CB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7E777EFA-49F3-4A60-B9A1-392A859AB0CB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

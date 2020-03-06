@@ -137,7 +137,13 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "lab_59_API_Northwind_Core",
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "lab_60_cats_API", "lab_60_cats_API\lab_60_cats_API.csproj", "{7A4831FB-33EE-481C-93B0-74AB259184F4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "lab_61_MVC_Website_Cats", "lab_61_MVC_Website_Cats\lab_61_MVC_Website_Cats.csproj", "{7E777EFA-49F3-4A60-B9A1-392A859AB0CB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "lab_61_MVC_Website_Cats", "lab_61_MVC_Website_Cats\lab_61_MVC_Website_Cats.csproj", "{7E777EFA-49F3-4A60-B9A1-392A859AB0CB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "lab_62_MVC_API_Client", "lab_62_MVC_API_Client\lab_62_MVC_API_Client.csproj", "{6134BFDD-0979-47ED-8132-BED5ED2CB676}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "lab_63_ToDo_API_Users_Categories", "lab_63_ToDo_API_Users_Categories\lab_63_ToDo_API_Users_Categories.csproj", "{A5F895E4-EC68-4C39-A13B-B7FCFF648966}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "lab_64_ToDo_With_Users_Categories", "lab_64_ToDo_With_Users_Categories\lab_64_ToDo_With_Users_Categories.csproj", "{E8075084-C05D-4310-9D39-9BAA67F92558}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -417,6 +423,18 @@ Global
 		{7E777EFA-49F3-4A60-B9A1-392A859AB0CB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7E777EFA-49F3-4A60-B9A1-392A859AB0CB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7E777EFA-49F3-4A60-B9A1-392A859AB0CB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6134BFDD-0979-47ED-8132-BED5ED2CB676}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6134BFDD-0979-47ED-8132-BED5ED2CB676}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6134BFDD-0979-47ED-8132-BED5ED2CB676}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6134BFDD-0979-47ED-8132-BED5ED2CB676}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A5F895E4-EC68-4C39-A13B-B7FCFF648966}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A5F895E4-EC68-4C39-A13B-B7FCFF648966}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A5F895E4-EC68-4C39-A13B-B7FCFF648966}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A5F895E4-EC68-4C39-A13B-B7FCFF648966}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E8075084-C05D-4310-9D39-9BAA67F92558}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E8075084-C05D-4310-9D39-9BAA67F92558}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E8075084-C05D-4310-9D39-9BAA67F92558}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E8075084-C05D-4310-9D39-9BAA67F92558}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

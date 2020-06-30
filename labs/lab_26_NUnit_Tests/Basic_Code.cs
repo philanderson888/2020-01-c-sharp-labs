@@ -532,7 +532,7 @@ namespace lab_26_NUnit_Tests
             return -1;
         }
 
-        //Roman Encyption shift each letter in the string up by 13, it is still csae sensitive
+        //Roman Encyption shift each letter in the string up by 13, it is still case sensitive
         // "Hello" would become "Uryyb"
         public string RomanEncryption(string messge)
         {
